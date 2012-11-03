@@ -17,6 +17,19 @@ Important Introductory Bits
 * WebDriver for PHP is a very splinter-y place; I use my [fork of Facebook's implementation](https://github.com/Element-34/php-webdriver) -- but spend the time to experiment with them all and see which one aligns with your own set of opinions. There is lots of howto-ish things in that repo...
 * There are two halves, well, its more like 20/80 parts; the 'session' and 'elements'
 
+Setup
+-----
+
+All the moving parts for PHPWebDriver and this project uses are installable through PEAR.
+
+```console
+$ sudo pear channel-discover pear.phpunit.de
+$ sudo pear install phpunit/PHPUnit
+$ sudo pear channel-discover element-34.github.com/pear
+$ sudo pear install -f element-34/SaunterPHP
+$ sudo pear install -f element-34/PHPBrowserMobProxy
+```
+
 Page Objects
 ------------
 
