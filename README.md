@@ -128,4 +128,4 @@ disclaimer: I'm a Sauce Labs partner, ask me for my partner discount code
 Frameworks
 ----------
 
-WebDriver is actually _really_ low level and you will want to write some helper-ish things around it. (SaunterPHP)[http://element34.ca/products/saunter/saunterphp] is one such framework based on the last decade of me doing this sort of thing. (And Open Source. Of course!)
+WebDriver is actually _really_ low level and you will want to write some helper-ish things around it. [SaunterPHP](http://element34.ca/products/saunter/saunterphp) is one such framework based on the last decade of me doing this sort of thing. (And Open Source. Of course!)
