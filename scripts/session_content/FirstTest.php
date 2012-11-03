@@ -20,6 +20,7 @@ class WebDriverSessionTest extends \PHPUnit_Framework_TestCase {
   /**
   * @test
   * @group session
+  * @group first
   */
   public function testWebDriver() {
     $home_page = new Home(self::$session);
